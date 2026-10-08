@@ -37,3 +37,41 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+/* Typography inspired by liujingping.com. */
+$profile-font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+body,
+h1, h2, h3, h4, h5, h6,
+.sidebar p,
+.sidebar li,
+.sidebar .author__name,
+.author__urls-wrapper {
+  font-family: $profile-font-family;
+}
+
+body {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.page__content {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.page__content p {
+  margin-bottom: 0.5em;
+}
+
+.page__content h1,
+.sidebar .author__name {
+  font-size: 21px;
+  line-height: 1.2;
+}
+
+.sidebar p,
+.sidebar li {
+  font-size: 15px;
+  line-height: 1.5;
+}

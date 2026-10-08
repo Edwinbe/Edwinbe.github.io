@@ -41,7 +41,7 @@ I welcome opportunities to exchange ideas and collaborate with researchers and p
   </a>
   <div class="publication-info">
     <a class="publication-title" href="https://arxiv.org/pdf/2508.10419">ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning</a>
-    <p>Juyuan Wang, <strong>Rongchen Zhao</strong>, Wei Wei, Yufeng Wang, Mo Yu, Jie Zhou, Jin Xu, Liyan Xu</p>
+    <p>Juyuan Wang<sup>*</sup>, <strong>Rongchen Zhao</strong><sup>*</sup>, Wei Wei, Yufeng Wang, Mo Yu, Jie Zhou, Jin Xu, Liyan Xu<sup>†</sup></p>
     <p class="publication-venue"><em>The Fortieth AAAI Conference on Artificial Intelligence (AAAI 26)</em></p>
   </div>
 </div>

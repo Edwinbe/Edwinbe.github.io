@@ -97,3 +97,65 @@ body {
     padding-top: 0;
   }
 }
+
+/* Use the available width instead of reserving an empty right column. */
+#main {
+  width: 100%;
+  max-width: 1440px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.author__urls li {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+@media screen and (min-width: $large) {
+  #main {
+    display: grid;
+    grid-template-columns: 280px minmax(0, 1fr);
+    gap: 32px;
+    align-items: start;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  #main::before,
+  #main::after {
+    display: none;
+  }
+
+  #main > .sidebar {
+    grid-column: 1;
+    float: none;
+    position: sticky;
+    top: 2em;
+    width: auto;
+    max-width: none;
+    height: auto;
+    max-height: calc(100vh - 4em);
+    margin: 0;
+    padding: 0 !important;
+    overflow-y: auto;
+  }
+
+  #main > .page,
+  #main > .archive {
+    grid-column: 2;
+    float: none;
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  #main > .page:only-child,
+  #main > .archive:only-child {
+    grid-column: 1 / -1;
+  }
+
+  .sidebar .author__desktop {
+    display: block;
+  }
+}

@@ -13,7 +13,6 @@
 
     "themes",
     "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
     "include/mixins",
     "vendor/susy/susy",
@@ -74,4 +73,26 @@ body {
 .sidebar li {
   font-size: 15px;
   line-height: 1.5;
+}
+
+/* Always use the light palette, including when the system prefers dark mode. */
+:root {
+  color-scheme: only light;
+  --global-bg-color: #fff;
+  --global-footer-bg-color: #fff;
+}
+
+/* The homepage has no top navigation or theme controls. */
+.masthead {
+  display: none;
+}
+
+body {
+  padding-top: 0;
+}
+
+@media screen and (min-width: $sidebar-screen-min-width) {
+  .sidebar {
+    padding-top: 0;
+  }
 }

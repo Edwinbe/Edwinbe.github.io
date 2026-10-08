@@ -34,3 +34,14 @@ I welcome opportunities to exchange ideas and collaborate with researchers and p
     <p class="publication-venue"><em>EMNLP 2026 Main Conference</em></p>
   </div>
 </div>
+
+<div class="publication-card">
+  <a class="publication-image" href="{{ '/images/comorag-overview.png' | relative_url }}" target="_blank" rel="noopener" aria-label="View the ComoRAG framework figure at full size">
+    <img src="{{ '/images/comorag-overview.png' | relative_url }}" alt="ComoRAG framework: a metacognitive regulation loop with hierarchical retrieval and a dynamic memory workspace" width="2031" height="898" loading="lazy">
+  </a>
+  <div class="publication-info">
+    <a class="publication-title" href="https://arxiv.org/pdf/2508.10419">ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning</a>
+    <p>Juyuan Wang, <strong>Rongchen Zhao</strong>, Wei Wei, Yufeng Wang, Mo Yu, Jie Zhou, Jin Xu, Liyan Xu</p>
+    <p class="publication-venue"><em>AAAI 2026</em></p>
+  </div>
+</div>

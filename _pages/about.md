@@ -7,5 +7,4 @@ redirect_from:
   - /about.html
 ---
 I'm an Ph.D. from South China University of Technology (SCUT). 
-My research interest includes computer vision, computer graphics, machine learning, and computational photography.
-
+My research interest includes Large language mode, Agents, Retrieval augumented retrieval, Natural language processing, and related areas.

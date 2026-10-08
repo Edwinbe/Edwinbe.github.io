@@ -88,7 +88,8 @@ body {
 }
 
 body {
-  padding-top: 0;
+  /* Override the navigation script's inline header offset. */
+  padding-top: 0 !important;
 }
 
 @media screen and (min-width: $sidebar-screen-min-width) {

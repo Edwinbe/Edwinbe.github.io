@@ -31,6 +31,6 @@ I welcome opportunities to exchange ideas and collaborate with researchers and p
   <div class="publication-info">
     <a class="publication-title" href="https://arxiv.org/abs/2608.25486">PonsRAG: A Pons-Inspired RAG Bridging Cognitive Islands for Coordinated Long Narrative Reasoning</a>
     <p><strong>Rongchen Zhao</strong>, Yu Chen, Juyuan Wang, Zhouting Mo, Jianxing Yu, Wenqing Chen, Jingping Liu</p>
-    <p class="publication-venue"><em>arXiv preprint, 2026</em></p>
+    <p class="publication-venue"><em>EMNLP 2026 Main Conference</em></p>
   </div>
 </div>

@@ -32,7 +32,5 @@ I welcome opportunities to exchange ideas and collaborate with researchers and p
     <a class="publication-title" href="https://arxiv.org/abs/2608.25486">PonsRAG: A Pons-Inspired RAG Bridging Cognitive Islands for Coordinated Long Narrative Reasoning</a>
     <p><strong>Rongchen Zhao</strong>, Yu Chen, Juyuan Wang, Zhouting Mo, Jianxing Yu, Wenqing Chen, Jingping Liu</p>
     <p class="publication-venue"><em>arXiv preprint, 2026</em></p>
-    <p>A pons-inspired RAG framework that combines triple-layer indexing with coordinated reasoning to bridge character and plot knowledge for long narrative reasoning.</p>
-    <p class="publication-links"><a href="https://arxiv.org/abs/2608.25486">[arXiv]</a> <a href="https://arxiv.org/pdf/2608.25486">[PDF]</a></p>
   </div>
 </div>

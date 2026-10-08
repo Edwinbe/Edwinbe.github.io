@@ -159,3 +159,39 @@ body {
     display: block;
   }
 }
+
+/* Publication rows: figure on the left, paper details on the right. */
+.publication-card {
+  display: grid;
+  grid-template-columns: 38% minmax(0, 1fr);
+  align-items: start;
+  gap: 24px;
+  margin: 24px 0;
+}
+.publication-card .publication-image {
+  display: block;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.publication-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.publication-info { min-width: 0; }
+.publication-info .publication-title {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-decoration: none;
+}
+.publication-info p { margin: 0 0 8px; }
+.publication-venue { color: #666; }
+.publication-links a { margin-right: 12px; }
+@media (max-width: 600px) {
+  .publication-card { grid-template-columns: 1fr; gap: 16px; }
+  .publication-card .publication-image { max-width: 420px; }
+}

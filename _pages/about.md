@@ -31,7 +31,7 @@ I welcome opportunities to exchange ideas and collaborate with researchers and p
   <div class="publication-info">
     <a class="publication-title" href="https://arxiv.org/abs/2608.25486">PonsRAG: A Pons-Inspired RAG Bridging Cognitive Islands for Coordinated Long Narrative Reasoning</a>
     <p><strong>Rongchen Zhao</strong>, Yu Chen, Juyuan Wang, Zhouting Mo, Jianxing Yu, Wenqing Chen, Jingping Liu</p>
-    <p class="publication-venue"><em>EMNLP 2026 Main Conference</em></p>
+    <p class="publication-venue"><em>The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 26)</em></p>
   </div>
 </div>
 
@@ -42,6 +42,6 @@ I welcome opportunities to exchange ideas and collaborate with researchers and p
   <div class="publication-info">
     <a class="publication-title" href="https://arxiv.org/pdf/2508.10419">ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning</a>
     <p>Juyuan Wang, <strong>Rongchen Zhao</strong>, Wei Wei, Yufeng Wang, Mo Yu, Jie Zhou, Jin Xu, Liyan Xu</p>
-    <p class="publication-venue"><em>AAAI 2026</em></p>
+    <p class="publication-venue"><em>The Fortieth AAAI Conference on Artificial Intelligence (AAAI 26)</em></p>
   </div>
 </div>

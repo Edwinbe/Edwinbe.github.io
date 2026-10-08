@@ -25,6 +25,17 @@ I welcome opportunities to exchange ideas and collaborate with researchers and p
 ## 📝 Recent Publications
 
 <div class="publication-card">
+  <a class="publication-image" href="{{ '/images/skillgate-overview.png' | relative_url }}" target="_blank" rel="noopener" aria-label="View the SkillGATE framework figure at full size">
+    <img src="{{ '/images/skillgate-overview.png' | relative_url }}" alt="SkillGATE framework: graph-preserving hierarchical indexing and gate-aware Monte Carlo tree search for skill retrieval" width="1674" height="836" loading="lazy">
+  </a>
+  <div class="publication-info">
+    <a class="publication-title" href="https://arxiv.org/pdf/2610.05489v1">SkillGATE: Gate-Aware Monte Carlo Tree Search for Skill Retrieval</a>
+    <p><strong>Rongchen Zhao</strong><sup>*</sup>, Yu Chen<sup>*</sup>, Yanming Yang, Shijia Xu, Juyuan Wang, Jin Xu, Zibin Zheng, Jingping Liu<sup>†</sup></p>
+    <p class="publication-venue"><em>Paper Under review</em></p>
+  </div>
+</div>
+
+<div class="publication-card">
   <a class="publication-image" href="{{ '/images/ponsrag-overview.png' | relative_url }}" target="_blank" rel="noopener" aria-label="View the PonsRAG framework figure at full size">
     <img src="{{ '/images/ponsrag-overview.png' | relative_url }}" alt="PonsRAG framework: triple-layer indexing and coordinated reasoning across character and plot knowledge" width="1190" height="674" loading="lazy">
   </a>
